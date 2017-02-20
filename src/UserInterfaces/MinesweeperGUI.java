@@ -45,7 +45,7 @@ public class MinesweeperGUI extends JFrame {
                     int y = e.getY()/BLOCK_SIZE;
                     if (!game.IsFinished())
                     {
-                        if (e.getButton() == MOUSE_BUTTON_LEFT) // left button mouse
+                        if (e.getButton() == MOUSE_BUTTON_LEFT)
                             if (!game.GetCell(x, y).IsOpened() && !game.GetCell(x, y).IsMineMark())  {
                                 game.CheckCell(x, y);
                         }
