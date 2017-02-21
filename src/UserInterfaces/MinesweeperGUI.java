@@ -27,7 +27,6 @@ public class MinesweeperGUI extends JFrame {
         setResizable(false);
         setLocationRelativeTo(null);
         final TimerLabel timeLabel = new TimerLabel();
-        timeLabel.setHorizontalAlignment(SwingConstants.CENTER);
         final Canvas canvas = new Canvas();
         canvas.setBackground(Color.white);
         canvas.addMouseListener(new MouseAdapter() {

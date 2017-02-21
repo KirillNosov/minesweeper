@@ -17,7 +17,7 @@ class PaintCell{
             g.fillRect(x*BLOCK_SIZE + 11, y*BLOCK_SIZE + 10, 4, 4);  
         }
         
-        void paintFlag(Graphics g, int x, int y, Color color) {
+        void paintFlag(Graphics g, int x, int y) {
             g.setColor(Color.BLACK);
             g.fillRect(x*BLOCK_SIZE + 7, y*BLOCK_SIZE + 5, 2, 20);
             g.setColor(Color.RED);
@@ -42,7 +42,7 @@ class PaintCell{
                     g.setColor(Color.lightGray);
                     g.fill3DRect(x*BLOCK_SIZE, y*BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE, true);
                     if (game.GetCell(x, y).IsMineMark()) 
-                        paintFlag(g, x, y, Color.red);
+                        paintFlag(g, x, y);
                 }
             } else
                 if (game.GetCell(x, y).IsMined()) 
