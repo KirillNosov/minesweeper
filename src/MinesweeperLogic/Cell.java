@@ -1,4 +1,4 @@
-package MineswipperLogic;
+package MinesweeperLogic;
 
 public class Cell{
     private boolean mined;

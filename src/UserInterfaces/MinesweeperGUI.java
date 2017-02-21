@@ -1,6 +1,6 @@
 package UserInterfaces;
 
-import MineswipperLogic.Game;
+import MinesweeperLogic.Game;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

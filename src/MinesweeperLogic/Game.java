@@ -1,4 +1,4 @@
-package MineswipperLogic;
+package MinesweeperLogic;
 
 public class Game{
     private int rowNum;                         

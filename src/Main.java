@@ -1,4 +1,4 @@
-import MineswipperLogic.Game;
+import MinesweeperLogic.Game;
 import UserInterfaces.MinesweeperGUI;
 import static UserInterfaces.Constants.*;
 

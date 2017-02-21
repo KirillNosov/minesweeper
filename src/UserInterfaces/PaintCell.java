@@ -1,6 +1,6 @@
 package UserInterfaces;
 
-import MineswipperLogic.Game;
+import MinesweeperLogic.Game;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
